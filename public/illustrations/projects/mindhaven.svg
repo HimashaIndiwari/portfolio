@@ -1,0 +1,26 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800"><stop stop-color="#07111E"/><stop offset="1" stop-color="#123054"/></linearGradient><linearGradient id="accent" x1="120" y1="120" x2="1080" y2="720"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#818CF8"/></linearGradient></defs>
+  <rect width="1200" height="800" rx="40" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="640" rx="32" fill="#08111F" fill-opacity="0.76" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <rect x="120" y="120" width="300" height="80" rx="20" fill="#0F1B31"/>
+  <rect x="120" y="220" width="260" height="380" rx="24" fill="#0F1B31"/>
+  <rect x="440" y="120" width="640" height="200" rx="24" fill="#0F1B31"/>
+  <rect x="440" y="340" width="300" height="260" rx="24" fill="#0F1B31"/>
+  <rect x="760" y="340" width="320" height="260" rx="24" fill="#0F1B31"/>
+  <rect x="150" y="250" width="200" height="18" rx="9" fill="#22D3EE" fill-opacity="0.16"/>
+  <rect x="150" y="286" width="150" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.08"/>
+  <rect x="150" y="334" width="200" height="120" rx="18" fill="#FFFFFF" fill-opacity="0.04"/>
+  <path d="M170 402C208 366 248 376 290 346" stroke="url(#accent)" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="170" cy="402" r="5" fill="#22D3EE"/><circle cx="208" cy="366" r="5" fill="#22D3EE"/><circle cx="248" cy="376" r="5" fill="#22D3EE"/><circle cx="290" cy="346" r="5" fill="#22D3EE"/>
+  <text x="470" y="168" fill="#22D3EE" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">MOOD TRACKING</text>
+  <rect x="470" y="190" width="260" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.08"/>
+  <rect x="470" y="220" width="360" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.06"/>
+  <rect x="470" y="250" width="320" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.06"/>
+  <circle cx="570" cy="466" r="70" fill="#22D3EE" fill-opacity="0.16"/>
+  <path d="M570 420C603 420 626 445 626 474C626 511 601 534 570 540C539 534 514 511 514 474C514 445 537 420 570 420Z" stroke="url(#accent)" stroke-width="8"/>
+  <rect x="790" y="386" width="250" height="24" rx="12" fill="#22D3EE" fill-opacity="0.16"/>
+  <rect x="790" y="428" width="220" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.08"/>
+  <rect x="790" y="460" width="180" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.06"/>
+  <rect x="790" y="510" width="220" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.08"/>
+  <path d="M814 556H1010" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800"><stop stop-color="#07111E"/><stop offset="1" stop-color="#15304E"/></linearGradient><linearGradient id="accent" x1="120" y1="120" x2="1080" y2="700"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#38BDF8"/></linearGradient></defs>
+  <rect width="1200" height="800" rx="40" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="640" rx="32" fill="#08111F" fill-opacity="0.76" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <rect x="390" y="120" width="420" height="560" rx="42" fill="#0F1B31" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <rect x="430" y="160" width="340" height="56" rx="22" fill="#22D3EE" fill-opacity="0.16"/>
+  <rect x="430" y="240" width="340" height="120" rx="24" fill="#FFFFFF" fill-opacity="0.04"/>
+  <rect x="430" y="380" width="160" height="160" rx="24" fill="#FFFFFF" fill-opacity="0.04"/>
+  <rect x="610" y="380" width="160" height="160" rx="24" fill="#FFFFFF" fill-opacity="0.04"/>
+  <path d="M470 450C470 423 492 400 520 400C548 400 570 423 570 450C570 483 544 507 520 520C496 507 470 483 470 450Z" fill="url(#accent)" fill-opacity="0.28"/>
+  <path d="M650 452C650 430 668 412 690 412C712 412 730 430 730 452C730 480 708 500 690 510C672 500 650 480 650 452Z" fill="#22D3EE" fill-opacity="0.22"/>
+  <rect x="430" y="570" width="340" height="70" rx="24" fill="#22D3EE" fill-opacity="0.14"/>
+  <text x="560" y="195" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">Wellness Mate</text>
+  <text x="560" y="292" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Habit tracking</text>
+  <text x="560" y="320" text-anchor="middle" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="14">Mood, hydration, and routine support</text>
+  <text x="520" y="470" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">Mood</text>
+  <text x="700" y="470" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">Hydrate</text>
+  <path d="M470 612H730" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+</svg>

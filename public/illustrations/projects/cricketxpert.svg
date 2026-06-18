@@ -1,0 +1,25 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800"><stop stop-color="#07111E"/><stop offset="1" stop-color="#132844"/></linearGradient><linearGradient id="accent" x1="140" y1="120" x2="1060" y2="700"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#38BDF8"/></linearGradient></defs>
+  <rect width="1200" height="800" rx="40" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="640" rx="32" fill="#08111F" fill-opacity="0.76" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <rect x="120" y="120" width="660" height="200" rx="28" fill="#0F1B31"/>
+  <rect x="120" y="340" width="300" height="260" rx="28" fill="#0F1B31"/>
+  <rect x="440" y="340" width="340" height="260" rx="28" fill="#0F1B31"/>
+  <rect x="800" y="120" width="280" height="480" rx="28" fill="#0F1B31"/>
+  <text x="160" y="176" fill="#22D3EE" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">CRICKETXPERT</text>
+  <rect x="160" y="204" width="270" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.08"/>
+  <rect x="160" y="238" width="220" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.06"/>
+  <rect x="160" y="390" width="220" height="18" rx="9" fill="#22D3EE" fill-opacity="0.16"/>
+  <rect x="160" y="424" width="200" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.08"/>
+  <rect x="160" y="454" width="180" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.08"/>
+  <rect x="480" y="390" width="240" height="18" rx="9" fill="#38BDF8" fill-opacity="0.16"/>
+  <rect x="480" y="424" width="220" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.08"/>
+  <rect x="480" y="454" width="200" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.08"/>
+  <rect x="840" y="176" width="200" height="24" rx="12" fill="#22D3EE" fill-opacity="0.18"/>
+  <rect x="840" y="220" width="160" height="14" rx="7" fill="#FFFFFF" fill-opacity="0.08"/>
+  <rect x="840" y="248" width="140" height="14" rx="7" fill="#FFFFFF" fill-opacity="0.06"/>
+  <rect x="840" y="340" width="196" height="74" rx="18" fill="#FFFFFF" fill-opacity="0.04"/>
+  <rect x="840" y="432" width="196" height="74" rx="18" fill="#FFFFFF" fill-opacity="0.04"/>
+  <path d="M850 560H1030" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="850" cy="560" r="6" fill="#22D3EE"/><circle cx="1030" cy="560" r="6" fill="#22D3EE"/>
+</svg>

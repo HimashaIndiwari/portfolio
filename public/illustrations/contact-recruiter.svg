@@ -1,0 +1,42 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900">
+      <stop stop-color="#06101D"/>
+      <stop offset="1" stop-color="#10243E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="180" y1="160" x2="980" y2="760">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="48" fill="url(#bg)"/>
+  <circle cx="230" cy="180" r="150" fill="#22D3EE" fill-opacity="0.12"/>
+  <circle cx="980" cy="150" r="140" fill="#818CF8" fill-opacity="0.1"/>
+  <rect x="120" y="120" width="960" height="660" rx="36" fill="#08111F" fill-opacity="0.78" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <rect x="180" y="180" width="380" height="520" rx="30" fill="#0F1B31" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <rect x="220" y="226" width="250" height="16" rx="8" fill="#22D3EE" fill-opacity="0.2"/>
+  <rect x="220" y="258" width="180" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.08"/>
+  <rect x="220" y="320" width="300" height="74" rx="18" fill="#FFFFFF" fill-opacity="0.04"/>
+  <rect x="220" y="410" width="300" height="74" rx="18" fill="#FFFFFF" fill-opacity="0.04"/>
+  <rect x="220" y="500" width="300" height="74" rx="18" fill="#FFFFFF" fill-opacity="0.04"/>
+  <rect x="220" y="602" width="140" height="26" rx="13" fill="#22D3EE" fill-opacity="0.18"/>
+  <text x="290" y="367" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Email</text>
+  <text x="290" y="455" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">LinkedIn</text>
+  <text x="290" y="545" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">GitHub</text>
+  <rect x="612" y="180" width="338" height="188" rx="28" fill="#0F1B31" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <circle cx="694" cy="274" r="46" fill="url(#accent)"/>
+  <text x="762" y="264" fill="#22D3EE" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">AVAILABLE NOW</text>
+  <text x="762" y="296" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Open to internship and entry-level roles</text>
+  <rect x="612" y="392" width="338" height="150" rx="28" fill="#0B1324" fill-opacity="0.95" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <rect x="648" y="430" width="70" height="70" rx="18" fill="#22D3EE" fill-opacity="0.18"/>
+  <rect x="732" y="430" width="70" height="70" rx="18" fill="#22D3EE" fill-opacity="0.14"/>
+  <rect x="816" y="430" width="70" height="70" rx="18" fill="#22D3EE" fill-opacity="0.1"/>
+  <text x="683" y="472" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">48h</text>
+  <text x="767" y="472" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">Fast</text>
+  <text x="851" y="472" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">Reply</text>
+  <rect x="612" y="568" width="338" height="132" rx="28" fill="#0F1B31" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <path d="M650 664L772 612L884 650" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="650" cy="664" r="6" fill="#22D3EE"/>
+  <circle cx="772" cy="612" r="6" fill="#22D3EE"/>
+  <circle cx="884" cy="650" r="6" fill="#22D3EE"/>
+</svg>

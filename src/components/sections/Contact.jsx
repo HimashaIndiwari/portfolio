@@ -4,7 +4,7 @@ import { HiMail, HiLocationMarker } from "react-icons/hi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import SectionWrapper, { SectionHeading } from "../ui/SectionWrapper";
 import Button from "../ui/Button";
-import { personalInfo } from "../../data/portfolioData";
+import { personalInfo, sectionIllustrations } from "../../data/portfolioData";
 import { fadeUpItem, staggerContainer } from "../../utils/animations";
 
 const contactCards = [
@@ -59,6 +59,23 @@ export default function Contact() {
           whileInView="visible"
           viewport={{ once: true }}
         >
+          <motion.div
+            variants={fadeUpItem}
+            className="glass-card gradient-border card-shine overflow-hidden rounded-2xl"
+          >
+            <div className="relative overflow-hidden">
+              <img
+                src={sectionIllustrations.contact}
+                alt="Recruiter contact illustration"
+                className="h-full w-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-br from-bg-primary/70 via-bg-primary/10 to-accent-primary/10" />
+              <div className="absolute left-5 top-5 rounded-full border border-white/10 bg-bg-primary/70 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.2em] text-accent-primary backdrop-blur-md">
+                Available for internships
+              </div>
+            </div>
+          </motion.div>
+
           <motion.p variants={fadeUpItem} className="mb-2 text-base leading-relaxed text-text-secondary">
             I&apos;m actively seeking internship opportunities and always open to
             discussing new projects. Let&apos;s connect and build something great

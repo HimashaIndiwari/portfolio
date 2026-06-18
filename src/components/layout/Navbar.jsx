@@ -20,26 +20,15 @@ export default function Navbar() {
 
   return (
     <motion.header
-      className="fixed top-0 left-0 right-0 z-50 px-4 pt-4 sm:px-6 lg:px-8"
+      className="fixed top-0 left-0 right-0 z-50 flex justify-center px-3 pt-4 sm:px-5 lg:px-8"
       initial={{ y: -80, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
     >
       <nav
-        className={`mx-auto flex max-w-6xl items-center justify-between rounded-2xl px-4 py-3 transition-all duration-500 sm:px-6 ${
-          scrolled ? "nav-pill" : "bg-transparent"
-        }`}
+        className="nav-pill flex w-fit items-center justify-center rounded-full px-3 py-2.5 transition-all duration-500 sm:px-4"
       >
-        <a href="#home" className="group flex items-center gap-2.5">
-          <span className="relative flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-accent-primary to-accent-secondary text-base font-extrabold text-bg-primary shadow-lg shadow-accent-primary/20">
-            H
-          </span>
-          <span className="hidden text-base font-bold tracking-tight text-text-primary sm:block">
-            Himasha<span className="text-accent-primary">.</span>
-          </span>
-        </a>
-
-        <ul className="hidden items-center gap-0.5 md:flex">
+        <ul className="hidden w-full items-center justify-between gap-2 rounded-full px-4 py-1 md:flex lg:px-6">
           {navLinks.map((link) => {
             const id = link.href.replace("#", "");
             const isActive = activeSection === id;
@@ -47,15 +36,17 @@ export default function Navbar() {
               <li key={link.name}>
                 <a
                   href={link.href}
-                  className={`relative rounded-xl px-4 py-2 text-sm font-medium transition-colors duration-300 ${
-                    isActive ? "text-accent-primary" : "text-text-secondary hover:text-text-primary"
+                  className={`relative rounded-full px-4 py-2 text-[0.78rem] font-semibold uppercase tracking-[0.18em] transition-all duration-300 lg:px-5 ${
+                    isActive
+                      ? "text-white"
+                      : "text-text-secondary hover:text-text-primary"
                   }`}
                 >
                   {link.name}
                   {isActive && (
                     <motion.span
                       layoutId="activeNav"
-                      className="absolute inset-0 -z-10 rounded-xl bg-accent-primary/10 ring-1 ring-accent-primary/20"
+                      className="absolute inset-0 -z-10 rounded-full border border-white/10 bg-[linear-gradient(180deg,rgba(255,255,255,0.06),rgba(255,255,255,0.02))] shadow-[0_6px_18px_rgba(0,0,0,0.24)]"
                       transition={{ type: "spring", stiffness: 400, damping: 30 }}
                     />
                   )}
@@ -65,16 +56,9 @@ export default function Navbar() {
           })}
         </ul>
 
-        <a
-          href="#contact"
-          className="hidden rounded-xl bg-gradient-to-r from-accent-primary to-accent-secondary px-5 py-2.5 text-sm font-semibold text-bg-primary shadow-lg shadow-accent-primary/20 transition-all duration-300 hover:shadow-accent-primary/35 md:block"
-        >
-          Hire Me
-        </a>
-
         <button
           type="button"
-          className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/[0.03] text-text-primary md:hidden"
+          className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/[0.03] text-text-primary md:hidden"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
         >
@@ -85,7 +69,7 @@ export default function Navbar() {
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            className="nav-pill mx-auto mt-2 max-w-6xl overflow-hidden md:hidden"
+            className="nav-pill mx-auto mt-2 max-w-6xl overflow-hidden rounded-3xl md:hidden"
             initial={{ opacity: 0, height: 0, y: -8 }}
             animate={{ opacity: 1, height: "auto", y: 0 }}
             exit={{ opacity: 0, height: 0, y: -8 }}
@@ -114,7 +98,7 @@ export default function Navbar() {
                   onClick={handleNavClick}
                   className="mt-1 block rounded-xl bg-gradient-to-r from-accent-primary to-accent-secondary px-4 py-3 text-center text-sm font-semibold text-bg-primary"
                 >
-                  Hire Me
+                  Contact
                 </a>
               </li>
             </ul>

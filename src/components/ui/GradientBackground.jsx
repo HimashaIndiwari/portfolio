@@ -41,7 +41,16 @@ export default function GradientBackground() {
         style={{
           backgroundImage:
             "linear-gradient(rgba(34,211,238,0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(34,211,238,0.5) 1px, transparent 1px)",
-          backgroundSize: "64px 64px",
+          backgroundSize: "48px 48px",
+        }}
+      />
+
+      <div
+        className="absolute inset-x-0 top-0 h-[560px] opacity-[0.06]"
+        style={{
+          backgroundImage:
+            "linear-gradient(transparent 95%, rgba(255,255,255,0.22) 96%), linear-gradient(90deg, transparent 95%, rgba(255,255,255,0.22) 96%)",
+          backgroundSize: "48px 48px",
         }}
       />
     </div>

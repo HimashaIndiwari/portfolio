@@ -12,6 +12,7 @@ import ScrollProgress from "./components/layout/ScrollProgress";
 import LoadingScreen from "./components/layout/LoadingScreen";
 
 import Hero from "./components/sections/Hero";
+import FocusAreas from "./components/sections/FocusAreas";
 import About from "./components/sections/About";
 import Skills from "./components/sections/Skills";
 import Projects from "./components/sections/Projects";
@@ -41,6 +42,8 @@ function App() {
               <Hero />
               <SectionDivider />
               <About />
+              <SectionDivider />
+              <FocusAreas />
               <SectionDivider />
               <Skills />
               <SectionDivider />

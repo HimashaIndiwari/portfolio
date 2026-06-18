@@ -12,20 +12,19 @@ export default function Projects() {
       ? projects
       : projects.filter((p) => p.category === activeFilter);
 
-  const featuredProject = projects.find((p) => p.featured);
-  const regularProjects = filteredProjects.filter((p) => !p.featured || activeFilter !== "all");
+  const displayProjects = filteredProjects;
 
   return (
     <SectionWrapper id="projects">
       <SectionHeading
         number="03"
         subtitle="Portfolio"
-        title="Featured Projects"
+        title="Projects"
       />
 
-      <p className="mx-auto -mt-8 mb-14 max-w-2xl text-center text-base leading-relaxed text-text-secondary sm:mb-16">
-        A selection of full-stack, web, and mobile projects demonstrating real-world
-        problem solving, clean architecture, and modern development practices.
+      <p className="mx-auto -mt-8 mb-14 max-w-4xl text-center text-lg leading-relaxed text-text-secondary sm:mb-16 sm:text-xl">
+        A focused look at individual work and team-built systems, with each
+        contribution called out where the project was collaborative.
       </p>
 
       {/* Filter pills */}
@@ -62,28 +61,13 @@ export default function Projects() {
           exit={{ opacity: 0, y: -16 }}
           transition={{ duration: 0.35 }}
         >
-          {/* Featured hero showcase — only on "All" filter */}
-          {activeFilter === "all" && featuredProject && (
-            <motion.div
-              className="mb-8"
-              initial={{ opacity: 0, y: 24 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-            >
-              <ProjectCard project={featuredProject} index={0} featured />
-            </motion.div>
-          )}
-
           {/* Project grid */}
           <motion.div
             layout
-            className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-7"
+            className="grid gap-7 lg:grid-cols-2 lg:gap-8"
           >
             <AnimatePresence mode="popLayout">
-              {(activeFilter === "all"
-                ? regularProjects
-                : filteredProjects
-              ).map((project, index) => (
+              {displayProjects.map((project, index) => (
                 <ProjectCard
                   key={project.id}
                   project={project}

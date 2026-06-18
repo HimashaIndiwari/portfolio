@@ -1,0 +1,26 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800"><stop stop-color="#07111E"/><stop offset="1" stop-color="#123054"/></linearGradient><linearGradient id="accent" x1="160" y1="120" x2="1040" y2="700"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#38BDF8"/></linearGradient></defs>
+  <rect width="1200" height="800" rx="40" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1040" height="640" rx="32" fill="#08111F" fill-opacity="0.76" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <rect x="120" y="120" width="560" height="560" rx="28" fill="#0F1B31"/>
+  <rect x="720" y="120" width="360" height="260" rx="28" fill="#0F1B31"/>
+  <rect x="720" y="400" width="360" height="280" rx="28" fill="#0F1B31"/>
+  <rect x="160" y="180" width="480" height="16" rx="8" fill="#22D3EE" fill-opacity="0.16"/>
+  <rect x="160" y="220" width="340" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.08"/>
+  <rect x="160" y="270" width="170" height="170" rx="24" fill="#FFFFFF" fill-opacity="0.04"/>
+  <rect x="350" y="270" width="170" height="170" rx="24" fill="#FFFFFF" fill-opacity="0.04"/>
+  <rect x="540" y="270" width="80" height="170" rx="24" fill="#22D3EE" fill-opacity="0.14"/>
+  <circle cx="245" cy="355" r="44" fill="#22D3EE" fill-opacity="0.2"/>
+  <circle cx="435" cy="355" r="44" fill="#38BDF8" fill-opacity="0.18"/>
+  <text x="245" y="365" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">BOOK</text>
+  <text x="435" y="365" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">SLOT</text>
+  <path d="M770 198H1040" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+  <text x="760" y="216" fill="#22D3EE" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">APPOINTMENT FLOW</text>
+  <rect x="760" y="246" width="240" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.08"/>
+  <rect x="760" y="278" width="200" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.06"/>
+  <rect x="760" y="438" width="240" height="16" rx="8" fill="#22D3EE" fill-opacity="0.18"/>
+  <rect x="760" y="470" width="180" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.08"/>
+  <rect x="760" y="500" width="210" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.08"/>
+  <path d="M760 600C790 560 838 548 878 524C916 500 960 470 1020 446" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="760" cy="600" r="6" fill="#22D3EE"/><circle cx="878" cy="524" r="6" fill="#22D3EE"/><circle cx="1020" cy="446" r="6" fill="#22D3EE"/>
+</svg>

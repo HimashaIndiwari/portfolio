@@ -1,3 +1,12 @@
+
+
+import cricketXpertImage from "../assets/crickerexpert.png";
+import lifeAppImage from "../assets/lifeapp.png";
+import musicImage from "../assets/music.png";
+import mindHavenImage from "../assets/mindhaven.png";
+import ayuboImage from "../assets/ayubo.png";
+import onlineAuctionImage from "../assets/onlineauction.png";
+
 /**
  * Centralized portfolio content data.
  * Update links, email, and CV path here for easy maintenance.
@@ -15,9 +24,9 @@ export const personalInfo = {
   ],
   greeting: "Hello, I'm",
   intro:
-    "Passionate developer creating modern web and mobile applications using cutting-edge technologies.",
+    "Software Engineering undergraduate at SLIIT with experience in MERN stack development, Java applications, and Kotlin mobile solutions.",
   about:
-    "I am a third-year undergraduate at the Sri Lanka Institute of Information Technology (SLIIT), pursuing a BSc in Software Engineering. I am a motivated and organized individual with hands-on experience in programming, Kotlin-based mobile app development, and full-stack web development using the MERN stack. I have strong analytical skills, a collaborative mindset, and a diligent work ethic that enables me to contribute effectively to projects and continuously learn and improve.",
+    "I am a third-year Software Engineering undergraduate at the Sri Lanka Institute of Information Technology (SLIIT) with hands-on experience in full-stack web development, mobile application development, and software engineering principles.",
   location: "Sri Lanka",
   languages: ["English", "Sinhala"],
   email: "himasha.indiwari@example.com",
@@ -26,10 +35,18 @@ export const personalInfo = {
   cvPath: "/cv.pdf",
 };
 
+export const sectionIllustrations = {
+  hero: "/illustrations/hero-studio.svg",
+  about: "/illustrations/about-profile.svg",
+  skills: "/illustrations/skills-architecture.svg",
+  education: "/illustrations/education-campus.svg",
+  contact: "/illustrations/contact-recruiter.svg",
+};
+
 export const navLinks = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
+  { name: "Stack", href: "#skills" },
   { name: "Projects", href: "#projects" },
   { name: "Education", href: "#education" },
   { name: "Contact", href: "#contact" },
@@ -37,48 +54,24 @@ export const navLinks = [
 
 export const skillCategories = [
   {
-    title: "Programming Languages",
-    icon: "code",
-    skills: ["Java", "JavaScript", "C", "C++", "SQL", "Kotlin", "Python", "PHP", "C#"],
-  },
-  {
     title: "Frontend",
-    icon: "frontend",
-    skills: ["React.js", "HTML5", "CSS3", "Tailwind CSS"],
+    icon: "code",
+    skills: ["React.js", "HTML5", "CSS3", "JavaScript", "Tailwind CSS"],
   },
   {
     title: "Backend",
-    icon: "backend",
-    skills: ["Node.js", "Express.js"],
+    icon: "frontend",
+    skills: ["Node.js", "Express.js", "Java", "Kotlin"],
   },
   {
-    title: "Databases",
-    icon: "database",
+    title: "Database",
+    icon: "backend",
     skills: ["MongoDB", "MySQL"],
   },
   {
-    title: "Tools",
-    icon: "tools",
-    skills: [
-      "Git",
-      "GitHub",
-      "Docker",
-      "Kubernetes",
-      "Postman",
-      "Android Studio",
-      "Visual Studio Code",
-      "Eclipse",
-    ],
-  },
-  {
-    title: "Soft Skills",
-    icon: "soft",
-    skills: [
-      "Problem Solving",
-      "Critical Thinking",
-      "Analytical Thinking",
-      "Team Collaboration",
-    ],
+    title: "Tools & Others",
+    icon: "database",
+    skills: ["Git", "GitHub", "VS Code", "Postman"],
   },
 ];
 
@@ -88,6 +81,10 @@ export const projects = [
     title: "MindHaven — Cognitive Wellness Platform",
     category: "fullstack",
     featured: false,
+    image: mindHavenImage,
+    kicker: "Cognitive Wellness Platform",
+    collaboration: "Team Project",
+    year: "2026",
     techStack: ["React", "Node.js", "Express.js", "MongoDB", "Clerk", "Gemini API"],
     description:
       "Developed mood tracking and medication reminder features for an elderly-focused cognitive wellness platform.",
@@ -99,6 +96,7 @@ export const projects = [
       "Streak tracking",
       "Caregiver support",
     ],
+    actions: [{ label: "Live Demo", href: "#projects", variant: "primary" }],
     gradient: "from-cyan-500/20 to-blue-500/20",
   },
   {
@@ -106,6 +104,10 @@ export const projects = [
     title: "Ayubo — Appointment Booking Platform",
     category: "fullstack",
     featured: false,
+    image: ayuboImage,
+    kicker: "Healthcare Management Platform",
+    collaboration: "Team Project",
+    year: "2026",
     techStack: ["React", "Node.js", "Express.js", "MongoDB", "Clerk"],
     description:
       "Developed appointment booking and management features for a healthcare platform.",
@@ -123,6 +125,10 @@ export const projects = [
     title: "CricketXpert – Full-Stack E-commerce & Booking System",
     category: "fullstack",
     featured: true,
+    image: cricketXpertImage,
+    kicker: "E-commerce & Booking System",
+    collaboration: "Team Project",
+    year: "2026",
     techStack: [
       "MongoDB",
       "Express.js",
@@ -144,6 +150,10 @@ export const projects = [
       "Sales reports",
       "Email notifications",
     ],
+    actions: [
+      { label: "Frontend Repo", href: "https://github.com/himashaindiwari" },
+      { label: "Backend Repo", href: "https://github.com/himashaindiwari" },
+    ],
     gradient: "from-cyan-400/20 to-teal-500/20",
   },
   {
@@ -151,6 +161,10 @@ export const projects = [
     title: "Music E-commerce User Management System",
     category: "web",
     featured: false,
+    image: musicImage,
+    kicker: "Music E-commerce Platform",
+    collaboration: "Individual Work",
+    year: "2025",
     techStack: ["Java", "MySQL", "HTML", "JavaScript"],
     description:
       "Developed a complete user management system using MVC architecture.",
@@ -167,6 +181,10 @@ export const projects = [
     title: "Online Auction Platform",
     category: "web",
     featured: false,
+    image: onlineAuctionImage,
+    kicker: "Online Auction Platform",
+    collaboration: "Individual Work",
+    year: "2025",
     techStack: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
     description:
       "Developed a secure registration and profile management system.",
@@ -178,6 +196,10 @@ export const projects = [
     title: "Wellness Mate Daily Habit Tracker",
     category: "mobile",
     featured: false,
+    image: lifeAppImage,
+    kicker: "Daily Habit Tracker",
+    collaboration: "Individual Work",
+    year: "2026",
     techStack: ["Kotlin", "Android Studio"],
     description:
       "Mobile application for personal wellness and habit tracking.",
