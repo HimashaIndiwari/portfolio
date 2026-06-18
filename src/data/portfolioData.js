@@ -24,7 +24,7 @@ export const personalInfo = {
   ],
   greeting: "Hello, I'm",
   intro:
-    "Software Engineering undergraduate at SLIIT with experience in MERN stack development, Java applications, and Kotlin mobile solutions.",
+    "I am a full-stack developer specializing in the MERN stack and high-performance web architecture, currently refining my craft as a Software Engineering undergraduate at SLIIT.",
   about:
     "I am a third-year Software Engineering undergraduate at the Sri Lanka Institute of Information Technology (SLIIT) with hands-on experience in full-stack web development, mobile application development, and software engineering principles.",
   location: "Sri Lanka",

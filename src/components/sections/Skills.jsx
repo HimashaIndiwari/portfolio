@@ -5,7 +5,6 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaJs,
-  FaServer,
   FaDatabase,
   FaTools,
   FaGithub,
